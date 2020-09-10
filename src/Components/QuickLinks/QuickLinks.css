@@ -4,11 +4,14 @@
     color: white;
     padding: 10px 20px;
     margin: 20px 40px;
+    width: 150px;
 }
 
 .quick-links{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
 
 }
