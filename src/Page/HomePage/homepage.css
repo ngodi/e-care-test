@@ -1,0 +1,98 @@
+.carouselh3 {
+    font-size: 32px;
+}
+
+.carouselH3P {
+    font-size: 20px;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.carouselText {
+    color: #0099B2;
+    font-size: 24px;
+}
+
+/* ################################################ */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../Assets/homepage/Images/hero.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.next {
+    font-size: 50px;
+}
+
+.next2 {
+    font-size: 30px;
+}
+
+.bg-cl {
+    background: rgba(0, 121, 137, 0.87);
+}
+
+
+/* ################################################ */
+.registerP {
+    color: #5F6368;
+}
+
+.registerBtn {
+    background: #007D85 !important;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.registerBtn:hover {
+    background: #ffffff !important;
+    border-radius: 3px;
+    color: #007D85;
+    border: 1px solid #007D85;
+}
+
+.registerBtn2 {
+    background: #ffffff !important;
+    border-radius: 3px;
+    color: #007D85;
+    border: 1px solid #007D85;
+    font-size: 20px;
+}
+
+.registerBtn2:hover {
+    background: #007D85 !important;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.ttr {
+    height: 60%;
+}
+
+/* ####################################### */
+.ttr {
+    color: #002689;
+}
+
+.grr {
+    color: #006F76;
+    font-family: Source Sans Pro;
+}
+
+.gre {
+    color: #006F76;
+}
+
+.bg {
+    background-color: #006F76;
+}

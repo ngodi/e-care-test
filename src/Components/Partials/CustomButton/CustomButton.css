@@ -1,0 +1,43 @@
+.green-back{
+    background:#007D85
+}
+.red-back{
+    background:red
+}
+.gray-back{
+    background:gray
+}
+.white-text{
+   color: white;
+}
+.form-button{
+ width: 100px;
+ padding: 3px 20px;
+ border-radius: 15px;
+ font-size: 20px;
+}
+.time-button{
+    padding: 3px 10px;
+    margin: 10px 15px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 20px;  
+}
+button{
+    border: none;
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited{
+    text-decoration: none;
+    border:none;
+    color: white;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+button:active{
+    box-shadow: 2px 2px 2px lightseagreen;
+}

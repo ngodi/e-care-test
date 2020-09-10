@@ -1,0 +1,96 @@
+.booking-container{
+    position: absolute;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background-color:rgba(211, 211, 211, 0.521);
+    z-index: 1;
+}
+.booking{
+    position: absolute;
+    z-index: 10;
+    width: 800px;
+    height: 650px;
+    top:20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px gray;
+    background: white;
+    background-position: top left;
+    background-size: 330px;
+    background-repeat: no-repeat;
+}
+.booking-heading{
+    font-family: rubik;
+    color: #007D85;
+    font-style: regular;
+    font-size: 35px;
+    line-height: 41px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: Center;
+}
+.close{
+    border: 4px solid #D9D9D9;
+    position: absolute;
+    top:-20px;
+    right: -20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white !important;
+}
+.close a:link, .close a:active, .close a:visited{
+    text-decoration: none;
+}
+
+.booking-right{
+    flex: 2;
+    padding: 50px;
+    margin-left: 250px;
+}
+
+.booking-right-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.booking-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.booking-timeslots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.booking-right-bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.booking-right-bottom span{
+    font-size: 20px;
+    }
+
+.selectForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectForm select{
+    margin: 10px auto;
+    font-size: 20px;;
+    padding: 5px 10px;
+    width: 250px;
+    border-radius: 15px;
+}
+.formButton{
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+}

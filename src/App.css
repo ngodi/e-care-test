@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slick-prev {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+}
+.slick-next {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+}
+
+.App{
+  width: 100%;
+}

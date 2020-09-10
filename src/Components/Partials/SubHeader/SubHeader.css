@@ -1,0 +1,27 @@
+.the-height{
+   height: 400px;
+   background-size: cover;
+   background-position: top;
+   background-repeat: no-repeat;
+   width: 100% !important;
+   margin: 0 auto;
+   position: relative;
+}
+
+.poweredby-logo{
+position: absolute;
+bottom: 0; 
+right: 0;
+}
+
+.sub-nav{
+   position: absolute;
+   top: 40px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.sub-nav span{
+   margin: 0 3vw;
+}

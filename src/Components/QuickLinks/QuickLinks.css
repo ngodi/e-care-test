@@ -1,0 +1,14 @@
+.quick-button{
+    background: #002689;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 40px;
+}
+
+.quick-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 250px;
+}

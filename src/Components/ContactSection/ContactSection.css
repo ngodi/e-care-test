@@ -1,0 +1,65 @@
+
+.send-message{
+    background: #007D85;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    border-radius: 5px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-right: 10px;
+}
+.contact-form input{
+    color: #007D85;
+    background: #C4C4C4;
+    border-radius: 5px;
+    width: 416px;
+    padding: 5px;
+    margin: 20px 0;
+    border: none;
+    box-shadow: 2px 2px #C4C4C4;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 80px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-side-text{
+    color: #C4C4C4;
+    width: 400px;
+    text-align: center;
+}
+
+.contact-side-text p{
+    background: #C4C4C4;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.message-area{
+    color: #007D85;
+    background: #C4C4C4;
+    width: 416px;
+    height: 200px;
+    margin: 20px 0;
+    border: none;
+    box-shadow: 2px 2px #C4C4C4;
+}
+
+.adviser{
+    display: flex;
+}

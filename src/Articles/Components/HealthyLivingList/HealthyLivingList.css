@@ -1,0 +1,13 @@
+.health-list-content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   flex-basis: auto;
+   flex-grow: 1;
+   flex-shrink: 0;
+}
+
+.healthy-living-list{
+   width: 90vw;
+   margin: 0 auto;
+}

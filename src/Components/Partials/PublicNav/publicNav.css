@@ -1,0 +1,34 @@
+.icon {
+    font-size: 20px;
+}
+
+.search-field {
+    border: none;
+    width: 373px !important;
+}
+
+.search-field::placeholder {
+    padding-right: 80px;
+    color: #007D85;
+}
+
+.tag-btn {
+    border: 1px solid #007D85;
+    color: #007D85;
+}
+
+.tag-btn:hover {
+    background-color: #007D85;
+    color: white;
+}
+
+.tag-btn2 {
+    background-color: #007D85;
+    color: white;
+}
+
+.tag-btn2:hover {
+    border: 1px solid #007D85;
+    color: #007D85;
+    background-color: white;
+}
