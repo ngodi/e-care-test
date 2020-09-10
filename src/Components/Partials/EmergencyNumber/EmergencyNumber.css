@@ -1,6 +1,7 @@
 .emergency-number{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     align-items: center;
     border: 1px solid #007D85;
     box-sizing: border-box;
@@ -8,13 +9,14 @@
 }
 
 .emergency-number img{
-    margin-right: 50px;
+    margin: 50px;
     -webkit-box-shadow: 0 0 20px gray;
         box-shadow: 0 0 20px gray;
 }
 
 .ambulance-contact{
   text-align: center;
+  width: 300px;
 }
 
 .ambulance-contact p{
@@ -31,5 +33,5 @@
 }
 .head-text{
     color: red;
-    font-size: 24px;
+    font-size: 18px;
 }
