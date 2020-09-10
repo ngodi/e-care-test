@@ -10,3 +10,10 @@
     color: #FB5B45 !important;
     margin: 50px auto !important;
   }
+
+  @media only screen and (max-width: 540px) {
+    .heading {
+      font-size: 30px;
+      margin: 70px auto !important;
+    }
+  }

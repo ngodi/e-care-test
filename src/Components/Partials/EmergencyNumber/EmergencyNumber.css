@@ -1,7 +1,7 @@
 .emergency-number{
     display: flex;
-    justify-content:center;
     flex-wrap: wrap;
+    justify-content:center;
     align-items: center;
     border: 1px solid #007D85;
     box-sizing: border-box;
@@ -34,4 +34,11 @@
 .head-text{
     color: red;
     font-size: 18px;
+}
+
+.fa-bars{
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
 }

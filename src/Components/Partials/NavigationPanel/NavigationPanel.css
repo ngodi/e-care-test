@@ -1,7 +1,5 @@
 .navigation-panel{
-  display: flex;
-  justify-content: space-evenly;
-  padding: 15px;
+  height: fit-content;
   background: #007D85;
   font-size: 24px;
   color: white;
@@ -9,7 +7,10 @@
 
 .navigation-panel a{
     text-decoration: none;
-    margin: 0 100px;
+}
+
+.navigation-panel ul li{
+ padding: 0 4vw;
 }
 
 .navigation-panel a:hover{
