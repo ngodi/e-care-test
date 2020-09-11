@@ -36,7 +36,7 @@ function App() {
     <div className="App">
       <PublicNav />
       <Emergency />
-         <div className="bg-success py-5">
+         <div className="bg-success py-5" style={{minWidth: "350px"}}>
         <footer className="container">
           <div className="row">
             <h3 className="col text-white">E-Care</h3>

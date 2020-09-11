@@ -4,6 +4,7 @@
    background-position: top;
    background-repeat: no-repeat;
    width: 100% !important;
+   min-width: 350px;
    margin: 0 auto;
    position: relative;
 }

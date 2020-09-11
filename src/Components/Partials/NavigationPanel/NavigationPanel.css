@@ -3,16 +3,41 @@
   background: #007D85;
   font-size: 24px;
   color: white;
+  min-width: 350px;
 }
 
+.navigation-panel ul {
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
 .navigation-panel a{
     text-decoration: none;
+      
 }
-
+.labo-nav{
+  border-right: none !important;
+}
 .navigation-panel ul li{
- padding: 0 4vw;
+ border-right: 1px solid white;
+ line-height: 20px;
+ padding: 0 3vw;
+ text-align: center;
 }
 
 .navigation-panel a:hover{
     border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 767px) {
+  .navigation-panel ul li {
+    border-right: none;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .navigation-panel {
+    height: 50px;
+  }
 }

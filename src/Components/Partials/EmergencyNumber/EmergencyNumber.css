@@ -6,6 +6,7 @@
     border: 1px solid #007D85;
     box-sizing: border-box;
     padding: 50px 100px;
+    min-width: 350px;
 }
 
 .emergency-number img{
@@ -17,6 +18,7 @@
 .ambulance-contact{
   text-align: center;
   width: 300px;
+  min-width: 300px;
 }
 
 .ambulance-contact p{
@@ -41,4 +43,14 @@
   border: 2px solid white;
   padding: 5px;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .emergency-number img {
+    width: 90vw;
+    min-width: 350px;
+  }
+  .head-text{
+    font-size: 16px;
+  }
 }

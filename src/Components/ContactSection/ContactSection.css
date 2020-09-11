@@ -1,4 +1,7 @@
-
+.contact{
+    margin: 0 auto;
+    min-width: 350px;
+}
 .send-message{
     background: #007D85;
     color: #fff;
@@ -14,6 +17,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
+    min-width: 350px;
     position: relative;
     margin-right: 10px;
 }
@@ -22,6 +26,7 @@
     background: #C4C4C4;
     border-radius: 5px;
     width: 400px;
+    min-width: 350px;
     padding: 5px;
     margin: 20px 0;
     border: none;
@@ -39,6 +44,7 @@
 .contact-side-text{
     color: #C4C4C4;
     width: 400px;
+    min-width: 350px;
     text-align: center;
 }
 
@@ -54,6 +60,7 @@
     color: #007D85;
     background: #C4C4C4;
     width: 400px;
+    min-width: 350px;
     height: 200px;
     margin: 20px 0;
     border: none;
@@ -62,4 +69,17 @@
 
 .adviser{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .message-area, .contact-form input  {
+      width: 70vw;
+      min-width: 350px;
+    }
+    .contact-side-text{
+      width: 70vw;
+      min-width: 350px;
+    }
+  }
