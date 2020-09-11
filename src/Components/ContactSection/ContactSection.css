@@ -27,7 +27,7 @@
     border-radius: 5px;
     width: 400px;
     min-width: 350px;
-    padding: 5px;
+    padding: 10px;
     margin: 20px 0;
     border: none;
     box-shadow: 2px 2px #C4C4C4;
@@ -59,6 +59,7 @@
 .message-area{
     color: #007D85;
     background: #C4C4C4;
+    padding: 10px;
     width: 400px;
     min-width: 350px;
     height: 200px;
